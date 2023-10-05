@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(61, 58, 58);
+}
+.container {
+    display: flex;
+    margin: 100px 50px 50px 50px;
+    
+}
+
+.content {
+    width: 397px;
+    border: 4px solid rgb(0, 17, 255);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+.item {
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    font-size: 85px;
+    border: 1px solid rgb(0, 4, 243);
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .3s;
+}
+
+.item:hover{
+    background-color: #8b52d60c;
+}
+
+
+.box{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(17, 160, 129, 0.062);
+    padding: 30px;
+    
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+}
